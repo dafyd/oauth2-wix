@@ -1,0 +1,17 @@
+{
+    "name": "dafyd/oauth2-wix",
+    "description": "Wix OAuth 2.0 support for the PHP League's OAuth 2.0 Client",
+    "require": {
+        "league/oauth2-client": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4",
+        "mockery/mockery": "^1.4"
+    },
+    "authors": [
+        {
+            "name": "Dafyd Jones",
+            "email": "d@fyd.me.uk"
+        }
+    ]
+}
