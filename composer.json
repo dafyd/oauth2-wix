@@ -1,6 +1,7 @@
 {
     "name": "dafyd/oauth2-wix",
     "description": "Wix OAuth 2.0 support for the PHP League's OAuth 2.0 Client",
+    "license": "MIT",
     "require": {
         "league/oauth2-client": "^2.0"
     },
@@ -8,10 +9,25 @@
         "phpunit/phpunit": "^9.4",
         "mockery/mockery": "^1.4"
     },
+    "keywords": [
+        "php",
+        "wix",
+        "api",
+        "oauth",
+        "oauth2",
+        "client",
+        "authorization",
+        "authentication"
+    ],
     "authors": [
         {
             "name": "Dafyd Jones",
             "email": "d@fyd.me.uk"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dafyd\\OAuth2\\Client\\": "src/"
+        }
+    }
 }
